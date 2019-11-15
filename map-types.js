@@ -1,4 +1,19 @@
-var baseUrl = "https://services.arcgisonline.com/arcgis/rest/services/",
-    maps = [{ base: L.esri.tiledMapLayer({ attributions: "Esri, HERE, DeLorme, USGS, Intermap, \xa9 OpenStreetMap", url: baseUrl + "World_Street_Map/MapServer" }), reference: null }, { base: L.esri.tiledMapLayer({ attributions: "Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN", url: baseUrl + "World_Imagery/MapServer" }), reference: L.esri.tiledMapLayer({ url: baseUrl + "Reference/World_Boundaries_and_Places/MapServer" }) }, { base: L.esri.tiledMapLayer({ attributions: "Esri, HERE, DeLorme, MapmyIndia, \xa9OpenStreetMap", url: baseUrl + "Canvas/World_Dark_Gray_Base/MapServer" }), reference: L.esri.tiledMapLayer({ url: baseUrl + "Canvas/World_Dark_Gray_Reference/MapServer" }) }, { base: L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attributions: 'Map data \xa9 <a href="https://openstreetmap.org">OpenStreetMap</a> contributors' }), reference: null }, { base: L.esri.tiledMapLayer({ attributions: "Esri, HERE, DeLorme, MapmyIndia, \xa9OpenStreetMap", url: baseUrl + "Canvas/World_Light_Gray_Base/MapServer" }), reference: L.esri.tiledMapLayer({ url: baseUrl + "Canvas/World_Light_Gray_Reference/MapServer" }) }];
-//# sourceMappingURL=/assets/source-maps/map-types.js.map
-//# sourceURL=_assets/js/map-types.js
+var baseUrl = "https://services.11arcgisonline.com/arcgis/rest/services/",
+    maps = [{
+
+ base: L.tileLayer('https://{s}.tile.thunderforest.com/transport-dark/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d'), reference: null },{
+
+ base: L.tileLayer("http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",), reference: null },{
+
+ base: L.tileLayer("https://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}{r}.png?apikey=7c352c8ff1244dd8b732e349e0b0fe8d"
+,), reference: null },{
+
+ base: L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",), reference: null }, {
+
+ base: L.tileLayer("https://api.tiles.mapbox.com/v4/mapbox.streets-satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
+,), reference: null }, {
+
+ base: L.esri.tiledMapLayer({
+//#5فاتحة
+ url: baseUrl + "Specialty/DeLorme_World_Base_Map/MapServer" }) 
+}];
