@@ -1,16 +1,39 @@
+.leaflet-container .leaflet-control-attribution {
+        display: none !important;
+     }
 
-body, div. #input-map-type 
+.button-play label {
+  display: block;
+  box-sizing: border-box;
+  width: 0;
+  height: 21px;
+  border-color: transparent transparent transparent #040;
+  transition: 100ms all ease;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 12px 0 12px 21px;
+  margin: -5px; 5px;
+  
+}
+.button-play input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+.button-play input[type="checkbox"]:checked + label {
+  border-style: double;
+  border-width: 0px 0 0px 21px;
+  
+}
 
- .label #option p.options-popup {
+
+body, div. #input-map-type .label #option p.options-popup {
         font-family: 'Cairo', sans-serif;
         font-size: 14px;
-
       }
 .input-colors-scheme .input-map-type
 {
-        font-family: 'Cairo', sans-serif;
+        font-family: 'Cairo', sans-sans-serif;;
         font-size: 14px;
-        text-align: right;
       }
 
 *{
@@ -22,12 +45,6 @@ body, div. #input-map-type
         body,
         div,
         span,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
         p,
         pre,
         a,
@@ -49,9 +66,9 @@ body, div. #input-map-type
         th,
         td {
             border: 0;
-            font-family: 'Cairo', serif;
-            font-style:  'Cairo', serif;
-            font-weight: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
+            font-style:  'Cairo', sans-serif;
+            : bold;
             margin: 0;
             outline: 0;
             padding: 0;
@@ -78,7 +95,7 @@ body, div. #input-map-type
         th,
         td {
             text-align: left;
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
         }
         
         a img {
@@ -122,7 +139,7 @@ body, div. #input-map-type
             border-radius: 5px;
             border: 1px #1789EA solid;
             padding: 8px 17px;
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
             font-size: 16px;
             display: inline-block;
         }
@@ -132,7 +149,7 @@ body, div. #input-map-type
         }
         
         .button-green {
-            background: #fff;
+            background: #72b100;
             border: 0;
             color: white;
         }
@@ -144,9 +161,9 @@ body, div. #input-map-type
         }
         
         body {
-            background: #ffffff;
-            color: #000000;
-            font-family: 'Cairo', serif;
+            background: #098;
+            color: #040;
+            font-family: 'Cairo', sans-serif;
         }
         
         body,
@@ -172,23 +189,23 @@ body, div. #input-map-type
         }
         
         h1 {
-            font-family: 'Cairo', serif;
-            font-size: 28px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 20px;
             line-height: 36px;
             margin-bottom: 8px;
             font-weight: bold;
         }
         
         h2 {
-            font-family: 'Cairo', serif;
-            font-size: 24px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 20px;
             line-height: 32px;
             margin-bottom: 8px;
             font-weight: bold;
         }
         
         h3 {
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
             font-size: 20px;
             line-height: 28px;
         }
@@ -226,7 +243,7 @@ body, div. #input-map-type
         }
         
         footer {
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
             padding-top: 16px;
             text-align: center;
             font-size: 13px;
@@ -311,11 +328,7 @@ body, div. #input-map-type
             padding: 16px auto;
         }
         
-        .image-shadow {
-            -webkit-box-shadow: 0 2px 20px -4px rgba(0, 0, 0, 0.3);
-            -moz-box-shadow: 0 2px 20px -4px rgba(0, 0, 0, 0.3);
-            box-shadow: 0 2px 20px -4px rgba(0, 0, 0, 0.3);
-        }
+      
         
         table {
             margin-bottom: 33px;
@@ -460,7 +473,7 @@ body, div. #input-map-type
         }
         
         td {
-            font-weight: normal;
+            font-weight: bold;
         }
         
         th {
@@ -474,7 +487,7 @@ body, div. #input-map-type
         
         td span {
             display: block;
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
             font-size: 0.75em;
             color: #aaa;
         }
@@ -543,7 +556,7 @@ body, div. #input-map-type
         
         .post-meta {
             margin: 0 0 24px 0;
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
             font-size: 14px;
             color: #666666;
         }
@@ -552,6 +565,14 @@ body, div. #input-map-type
             text-decoration: underline;
         }
         
+        .post-title-image {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center center;
+            overflow: hidden;
+            margin: 40px auto;
+        }
         
         @media only screen and (max-width: 480px) {
             .post p img {
@@ -566,10 +587,10 @@ body, div. #input-map-type
         input[type=button],
         input[type=number],
         select {
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
             font-size: 12px;
             font-weight: bold;
-            height: 28px;
+            height: 25px;
             cursor: pointer;
             border: 0;
             outline: 0;
@@ -599,8 +620,6 @@ body, div. #input-map-type
             -moz-box-shadow: none;
             box-shadow: none;
             border: 1px solid rgba(0, 0, 0, 0.15);
-            font-family: 'Cairo', serif;
-            font-family: ''bold'', serif;
         }
         
         input[type=button].text:hover,
@@ -626,14 +645,18 @@ body, div. #input-map-type
         input[type=button].info,
         input[type=number].info,
         select.info {
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
             font-style: italic;
             font-weight: bold;
             font-size: 16px;
-            
         }
         
-        
+        input[type=button].full-screen,
+        input[type=number].full-screen,
+        select.full-screen {
+            width: 32px;
+            background: #fff url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxNHB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxNCAxNCIgd2lkdGg9IjE0cHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSI+PGcgZmlsbD0iIzAwMDAwMCIgaWQ9IkNvcmUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMTUuMDAwMDAwLCAtMjU3LjAwMDAwMCkiPjxnIGlkPSJmdWxsc2NyZWVuIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMTUuMDAwMDAwLCAyNTcuMDAwMDAwKSI+PHBhdGggZD0iTTIsOSBMMCw5IEwwLDE0IEw1LDE0IEw1LDEyIEwyLDEyIEwyLDkgTDIsOSBaIE0wLDUgTDIsNSBMMiwyIEw1LDIgTDUsMCBMMCwwIEwwLDUgTDAsNSBaIE0xMiwxMiBMOSwxMiBMOSwxNCBMMTQsMTQgTDE0LDkgTDEyLDkgTDEyLDEyIEwxMiwxMiBaIE05LDAgTDksMiBMMTIsMiBMMTIsNSBMMTQsNSBMMTQsMCBMOSwwIEw5LDAgWiIgaWQ9IlNoYXBlIi8+PC9nPjwvZz48L2c+PC9zdmc+") no-repeat center;
+        }
         
         #radar-app {
             position: absolute;
@@ -648,9 +671,9 @@ body, div. #input-map-type
             top: 50%;
             width: 100%;
             height: 100%;
-            font-size: 1.5em;
+            font-size: 1em;
             line-height: 1.2em;
-            color: #098;
+            color: #545e6b;
             text-align: center;
         }
         
@@ -659,43 +682,53 @@ body, div. #input-map-type
         }
         
         #radar-app .leaflet-control-scale-line {
-            border: 1px solid #777;
+            border: 0px solid #777;
             border-top: none;
             padding: 1px 5px;
         }
         
         #radar-app .leaflet-control-scale-line:not(:first-child) {
-            border: 1px solid #777;
+            border: 0px solid #777;
             border-bottom: none;
             margin-top: -1px;
         }
         
         #radar-app.dark-theme #menu-bar,
         #radar-app.dark-theme .leaflet-control-attribution {
-            background-color: rgba(16, 16, 16, 0.4);
-            color: #aaa;
+            background-color: rgba(16, 16, 16, 0.6);
+            color: #eee;
         }
         
-        #radar-app.dark-theme #options-popup,
         #radar-app.dark-theme .popup {
-            background-color: rgba(32, 32, 32, 0.8);
-           
+            background-color: rgba(32, 42, 32, 0.8);
+            color: #eee;
         }
-       
 
+        #radar-app.dark-theme #options-popup {
+            background-color: rgba(22, 32, 22, 0.9);
+            color: #eee;
+        }
+        
         #radar-app.dark-theme input[type=button],
         #radar-app.dark-theme input[type=number],
+        #radar-app.dark-theme input[type=checkbox],
         #radar-app.dark-theme select,
         #radar-app.dark-theme .leaflet-control-zoom>a {
-            background-color: #444;
+            background-color: rgba(32, 42, 32, 0.8);
             color: white;
         }
-        
+        #radar-app.dark-theme .button-play label {
+        border-color: transparent transparent transparent #eee;
+
+}
+
+
         #radar-app.dark-theme input[type=button]:hover,
         #radar-app.dark-theme input[type=number]:hover,
+        #radar-app.dark-theme input[type=checkbox]:hover,
         #radar-app.dark-theme select:hover,
         #radar-app.dark-theme .leaflet-control-zoom>a:hover {
-            background-color: #666;
+            background-color: rgba(32, 42, 32, 0.8);
         }
         
         #radar-app.dark-theme h1,
@@ -707,15 +740,22 @@ body, div. #input-map-type
         }
         
         #radar-app.dark-theme .leaflet-control-scale-line {
-            background-color: rgba(16, 16, 16, 0.3);
+            background-color: rgba(16, 26, 16, 0.4);
             border-color: #aaa;
             color: #ccc;
         }
         
-        #radar-app.dark-theme .app-name>a {
-            color: white;
+        #radar-app.dark-theme .site-only {
+            border-color: #aaa;
+            color: #ccc;
         }
         
+         #radar-app.dark-theme .button-play {
+            border-color: #aaa;
+            color: #ccc;
+           
+        }
+
         #radar-app p {
             margin: 0;
         }
@@ -734,21 +774,24 @@ body, div. #input-map-type
         
         #menu-bar {
             position: absolute;
-            top: 0;
+            top: 21px;
             left: 0;
-            width: 100%;
-            height: 50px;
+            width: 97%;
+            height: 52px;
             z-index: 9999;
             text-align: center;
+            margin-left: 4px;
+            margin-right: 2px;
+            border-radius: 6px;
             background-color: rgba(255, 255, 255, 0.85);
             -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
             -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 11px rgba(0, 0, 0, 0.3);
         }
         
         #menu-bar div {
             display: inline-block;
-            margin: 10px 4px;
+            margin: 8px 4px;
         }
         
         #menu-bar div.loading-hide {
@@ -777,66 +820,71 @@ body, div. #input-map-type
         }
         
         #menu-bar #loading-mark span.loader.hidden {
-             right: 70px;
+             right: 0px;
             
         }
         
         #options-popup {
             display: none;
             position: absolute;
-            top: 50px;
-            right: 0;
-            padding: 10px;
+            top: 60px;
+            right: 5px;
+            padding: 5px;
             z-index: 9999;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+            border-radius: 8px;
             background-color: rgba(255, 255, 255, 0.9);
             -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
             -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 11px rgba(0, 0, 0, 0.3);
         }
         
         #options-popup input[type=checkbox] {
-            margin-top: 9px;
+            margin-top: 5px;
         }
         
         #options-popup input[type=button] {
             float: left;
             text-align: center;
-
         }
         
-
         #options-popup input,
         #options-popup select {
             font-family: 'Cairo', serif;
             float: left;
-            /* float: right; */
-
+            text-align: center;
         }
         
         #options-popup input[type=number],
         #options-popup select {
-            top: 0;
-
+            top: 5px;
+        font-family: 'Cairo', sans-serif;;
+            font-size: 14px;
         }
         
         #options-popup div {
             position: relative;
             margin: 2px 0;
-            padding: 0 14px;
+            padding: 0 8px;
             clear: both;
+            font-family: 'Cairo', sans-serif;;
+            font-size: 14px;
         }
         
         #options-popup label {
-            padding-right: 12px;
+            padding-right: 8px;
             line-height: 28px;
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;;
+            font-size: 14px;
+            text-align: center;
         }
         
         #options-popup .separator {
             margin: 4px;
             padding: 0;
             height: 1px;
-            background-color: #aaaa;
+            background-color: #aaca;
         }
         
         .site-only {
@@ -844,52 +892,45 @@ body, div. #input-map-type
         }
         
         .popup {
-            
+            display: none;
             position: absolute;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            left: 50%;
-            padding: 10px;
-            background-color: rgba(255, 255, 255, 0.98);
+            top: 77%;
+            border-radius: 6px;
+            -webkit-transform: translateY(-70%);
+            -ms-transform: translateY(-70%);
+            transform: translateY(-70%);
+            left: 70%;
+            padding: 8px;
+            background-color: rgba(255, 255, 255, 100);
             -webkit-box-shadow: 0 4px 11px rgba(0, 0, 0, 0.3);
             -moz-box-shadow: 0 4px 11px rgba(0, 0, 0, 0.3);
             box-shadow: 0 4px 11px rgba(0, 0, 0, 0.3);
             z-index: 9998;"
             font-family: 'Cairo', serif;
-           
-
         }
-        
         
         .popup.info {
             left: .5em;
             padding: 4px;
             z-index: 9997;
-           
         }
         
-        .popup.info.legend-minimized p {
+     .popup.info.legend-minimized p {
             display: none;
-            
         }
         
         .popup.info.legend-minimized li {
             line-height: 0;
-            
         }
         
         .popup.info a {
             display: block;
-            margin-top: 6px;
-            
+            margin-top: 5px;
         }
         
         .popup input.full-width {
             width: 100%;
             margin: 8px 0 8px;
-            
         }
         
         .popup h3 {
@@ -897,7 +938,7 @@ body, div. #input-map-type
         }
         
         .popup p {
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;;
             font-size: 14px;
         }
         
@@ -905,9 +946,7 @@ body, div. #input-map-type
             display: block;
             width: 95%;
             height: 84px;
-            font-family: 'Cairo', serif;
-
-
+            font-family: 'Cairo', sans-serif;
         }
         
         .popup .margin8 {
@@ -976,7 +1015,13 @@ body, div. #input-map-type
         .cs-0 .cs-hail-3 {
             background-color: #a84c06;
         }
-        
+
+        .cs-1 .cs-cloud {
+            background-color: #777;
+        }
+         .cs-1 .cs-cloud-1 {
+            background-color: #cca;
+        }
         .cs-1 .cs-clouds {
             background-color: #88eeee;
         }
@@ -1028,7 +1073,12 @@ body, div. #input-map-type
         .cs-1 .cs-hail-3 {
             background-color: #ff44ff;
         }
-        
+         .cs-2 .cs-cloud {
+            background-color: #11951a;
+        }
+         .cs-2 .cs-cloud-1 {
+            background-color: #007000;
+        }
         .cs-2 .cs-clouds {
             background-color: #1c47e8;
         }
@@ -1247,15 +1297,13 @@ body, div. #input-map-type
             display: block;
             height: 16px;
             text-align: left;
-           
         }
         
         .short-color-scheme div {
             display: inline-block;
-            width: 12px;
+            width: 16px;
             height: 16px;
             vertical-align: middle;
-            
         }
         
         .short-color-scheme p {
@@ -1263,7 +1311,6 @@ body, div. #input-map-type
             font-size: 12px;
             padding-left: 4px;
             height: 16px;
-           
         }
         
         body.full-screen header,
@@ -1279,6 +1326,24 @@ body, div. #input-map-type
             right: 0;
         }
         
+        body.full-screen #radar-app-wrapper {
+            max-height: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            font-family: 'Cairo', serif;
+            font-family: ''Roboto'', serif;
+        font-size: 18px;
+        text-shadow: 4px 4px 4px #aaa;
+        color:#074;
+        }
+        
+        body.full-screen #menu-bar div#app-name,
+        body.full-screen #menu-bar div#app-icon {
+            display: inline-block;
+        }
         
         @-webkit-keyframes rotation {
             0% {
@@ -1313,12 +1378,12 @@ body, div. #input-map-type
             div#time-section {
                 position: absolute;
                 top: 0;
-                left: 54px;
+                left: 64px;
             }
             div#play-section {
                 position: absolute;
                 top: 0;
-                left: 65px;
+                left: 75px;
             }
         }
         
@@ -1327,54 +1392,18 @@ body, div. #input-map-type
             display: none;
         }
         
-        #radar-app-wrapper {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            box-sizing: border-box;
-            overflow: hidden;
-            min-height: 400px;
-            max-height: 800px;
-            font-family: 'Cairo', serif;
-            font-size: 18px;
-            text-shadow: 4px 4px 4px #aaa;
-            color:#074;
-        }
-        
-        #radar-app-wrapper:after {
-            padding-top: 38%;
-            display: block;
-            content: '';
-            font-family: 'Cairo', serif;
-            font-family: ''Roboto'', serif;
-        font-size: 18px;
-        text-shadow: 4px 4px 4px #aaa;
-        color:#074;
-        }
-        
-        @media only screen and (max-width: 480px) {
-            .full-screen #menu-bar div#app-icon {
-                left: 0;
-            }
-            .full-screen #menu-bar div#app-name {
-                display: none;
-            }
-            .full-screen #menu-bar div#time-section {
-                margin-left: 48px;
-            }
-            #app-name {
-                display: none !important;
-            }
+       
 
  /** * STTING */
 
             div#time-section {
                 position: relative;
-                margin-left: 4px;
+                margin-left: 20px;
                 right: 0;
             }
             div#play-section {
                 position: relative;
+                margin-left: 30px;
                 right: 0;
             }
         }
@@ -1428,6 +1457,16 @@ body, div. #input-map-type
             height: 453px;
         }
         
+        .phone-background {
+            background: url("/images/iphone-android.jpg") no-repeat right top;
+            background-size: 290px 450px;
+            height: 450px;
+        }
+        
+        .phone-background .app-screen {
+            margin: 55px 15px 0 0;
+        }
+        
         .two-blocks {
             margin: 0 auto;
         }
@@ -1446,7 +1485,12 @@ body, div. #input-map-type
             display: inline-block;
         }
         /** * RETINA */
-       
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 2) {
+            .phone-background {
+                background-image: url("/images/iphone-android@2x.jpg");
+            }
+        }
         /* iPhone Portrait and less */
         
         @media only screen and (max-width: 560px) {
@@ -1507,10 +1551,9 @@ body, div. #input-map-type
             position: absolute;
             z-index: 1000;
             pointer-events: none;
-            top: 50%;
-            /* possible because the placeholder's parent is the map */
-            transform: translateY(-50%);
-            /* using the CSS3 Transform technique */
+            top: 80%;
+            border-radius: 6px;
+           transform: translateY(-70%);
             padding-top: 10px;
         }
         
@@ -1567,7 +1610,7 @@ body, div. #input-map-type
         
         .app h1 strong {
             font-family: 'Cairo', serif;
-            font-weight: normal;
+            font-weight: bold;
         }
         
         .app h2 {
@@ -1593,7 +1636,7 @@ body, div. #input-map-type
         }
         
         .app td span {
-            font-family: 'Cairo', serif;
+            font-family: 'Cairo', sans-serif;
             font-size: inherit;
             color: inherit;
         }
@@ -1684,13 +1727,14 @@ body, div. #input-map-type
             background: #5ac8fa;
         }
         
+        
         .app-features {
             text-align: center;
         }
         
         .app-features h2 {
-            font-size: 45px;
-            font-weight: normal;
+            font-size: 16px;
+            font-weight: bold;
         }
         
         .app-features table {
@@ -1709,18 +1753,16 @@ body, div. #input-map-type
             font-weight: bold;
             text-align: center;
             vertical-align: middle;
-            font-family: 'Cairo', serif;
-        }
+            font-family: 'Cairo', sans-serif;
+ }
         
         .app-features .text-to-left {
             text-align: left;
-            font-family: 'Cairo', serif;
         }
         
         .app-features th.feature {
-            font-size: 45px;
-            font-weight: normal;
-            font-family: 'Cairo', serif;
+            font-size: 16px;
+            font-weight: bold;
         }
         
         .blue-background {
@@ -1753,7 +1795,7 @@ body, div. #input-map-type
                 padding-right: 0;
             }
             .app p {
-                font-family: 'Cairo', serif;
+                font-family: 'Cairo', sans-serif;
                 font-size: inherit;
                 line-height: 24px;
             }
@@ -1779,9 +1821,9 @@ body, div. #input-map-type
         
         @media only screen and (max-width: 800px) {
             .app p {
-                font-family: 'Cairo', serif;
+                font-family: 'Cairo', sans-serif;
                 font-size: inherit;
-                line-height: 24px;
+                line-height: 28px;
             }
             .app h1 span {
                 display: inline;
@@ -1841,7 +1883,10 @@ body, div. #input-map-type
             .app-feature-image-right {
                 float: none;
             }
-            
+            .app-feedback-item {
+                display: block;
+                height: auto;
+            }
             .app-features table {
                 width: 95%;
             }
@@ -1878,8 +1923,7 @@ body, div. #input-map-type
             .app-features tr:nth-child(odd) {
                 padding: 2px 12px;
                 font-size: 18px;
-                font-weight: bold;
-            }
+                font-weight: bold;          }
             .app .blue-background-download-cta {
                 font-size: 26px;
             }
@@ -1919,8 +1963,6 @@ body, div. #input-map-type
             -moz-border-radius: 26px;
             border-radius: 26px;
             line-height: 50px;
-            font-family: 'Cairo', serif;
-            font-family: ''Roboto'', serif;
         }
         
         .premium-features-how-to p.text {
@@ -1980,8 +2022,4 @@ body, div. #input-map-type
                 text-align: center;
             }
         }
-          #input-colors-scheme {
-                font-family: 'Cairo', sans-serif;
-                font-size: 12px;
-                font-weight: bold;
-    }
+   
