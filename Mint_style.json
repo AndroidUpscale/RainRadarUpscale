@@ -3088,7 +3088,7 @@
                 ],
                 "symbol-placement": "line-center",
                 "text-pitch-alignment": "viewport",
-                "text-field": ["coalesce", ["get", "name_ar"],]
+                "text-field": ["coalesce", ["get", "name_ar"]]
             },
             "paint": {
                 "text-color": [
