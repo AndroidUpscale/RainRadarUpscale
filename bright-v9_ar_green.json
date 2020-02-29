@@ -100,7 +100,7 @@
                 "national_park"
             ],
             "paint": {
-                "fill-color": "#d8e8c8",
+                "fill-color": "#00563e",
                 "fill-opacity": 0.75
             },
             "metadata": {
@@ -119,7 +119,7 @@
                 "park"
             ],
             "paint": {
-                "fill-color": "#d8e8c8"
+                "fill-color": "#00563e"
             },
             "metadata": {
                 "mapbox:group": "1444849388993.3071"
