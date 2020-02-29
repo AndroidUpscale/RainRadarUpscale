@@ -1,4 +1,4 @@
-var streets = {
+{
   "version": 7,
   "name": "mapbox-streets-v7",
   "constants": {
