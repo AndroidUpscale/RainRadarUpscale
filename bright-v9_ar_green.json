@@ -85,7 +85,7 @@
             "id": "background",
             "type": "background",
             "paint": {
-                "background-color": "#8ceeb3"
+                "background-color": "#00563e"
             },
             "interactive": true
         },
