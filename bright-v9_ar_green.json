@@ -321,7 +321,7 @@
             "source": "mapbox",
             "source-layer": "water",
             "paint": {
-                "fill-color": "#9ef0d3"
+                "fill-color": "#53e4b4"
             },
             "metadata": {
                 "mapbox:group": "1444849382550.77"
