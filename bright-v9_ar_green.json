@@ -2924,7 +2924,7 @@
             "source": "mapbox",
             "id": "water_label",
             "paint": {
-                "text-color": "#ace2c3",
+                "text-color": "#346051",
                 "text-halo-width": 1.5,
                 "text-halo-color": "rgba(255,255,255,0.7)"
             },
@@ -3491,7 +3491,7 @@
             "source": "mapbox",
             "id": "marine_label_line_4",
             "paint": {
-                "text-color": "#ace2c3",
+                "text-color": "#346051",
                 "text-halo-color": "rgba(255,255,255,0.7)",
                 "text-halo-width": 0.75,
                 "text-halo-blur": 0.75
