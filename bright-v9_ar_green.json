@@ -85,7 +85,7 @@
             "id": "background",
             "type": "background",
             "paint": {
-                "background-color": "#00563e"
+                "background-color": "#004d37"
             },
             "interactive": true
         },
@@ -321,7 +321,7 @@
             "source": "mapbox",
             "source-layer": "water",
             "paint": {
-                "fill-color": "#346051"
+                "fill-color": "#2d5346"
             },
             "metadata": {
                 "mapbox:group": "1444849382550.77"
