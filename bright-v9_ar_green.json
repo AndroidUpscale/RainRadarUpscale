@@ -2725,7 +2725,7 @@
             "source": "mapbox",
             "id": "admin_level_2",
             "paint": {
-                "line-color": "#9e9cab",
+                "line-color": "#346051",
                 "line-width": {
                     "base": 1,
                     "stops": [
@@ -2776,7 +2776,7 @@
             "source": "mapbox",
             "id": "admin_level_2_disputed",
             "paint": {
-                "line-color": "#9e9cab",
+                "line-color": "#346051",
                 "line-dasharray": [
                     2,
                     2
@@ -2879,7 +2879,7 @@
             "source": "mapbox",
             "id": "admin_level_2_maritime",
             "paint": {
-                "line-color": "#ace2c3",
+                "line-color": "#346051",
                 "line-opacity": 0.5,
                 "line-width": {
                     "base": 1,
