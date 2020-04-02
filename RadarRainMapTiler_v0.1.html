@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RainRadar_AndroidUpscale</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="https://rawcdn.githack.com/AndroidUpscale/RainRadarUpscale/66ce12ff43fda9b0b6c97e0d336a906c56719dbc/radar_maps_style.css">
+    <!--
+    <link rel="stylesheet" type="text/css" href="rada_rrain_style.css">
+    <link rel="stylesheet" href="leaflet.css" />
+
+-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://rawcdn.githack.com/AndroidUpscale/RainRadarUpscale/66ce12ff43fda9b0b6c97e0d336a906c56719dbc/L.Control.Locate.js" ></script>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/mapbox/mapbox-gl-leaflet@master/leaflet-mapbox-gl.js"></script>
+
+
+  <script src='https://leaflet.github.io/Leaflet.fullscreen/dist/Leaflet.fullscreen.min.js'></script>
+
+    <style>
+      html {
+    display: block;
+    color: -internal-root-color;
+}
+body {
+    display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+
+.ui-opacity {
+  position:absolute;
+  background-color:  rgba(0, 100, 80, .80);
+  left:15px;
+  bottom: 23%;
+  height:225px;
+  width:20px;
+  padding: 1px;
+  border-radius:20px;
+  z-index:1000;
+  box-shadow: 10px 10px 5px rgba(26,26,27,.42);
+  }
+.ui-opacity .handle {
+  position:absolute;
+  background:#fff;
+  top:35px;
+  width:20px;
+  height:20px;
+  border-radius:20px;
+  cursor:pointer;
+  cursor:ns-resize;
+  }
+  .ui-opacity .handle:hover {
+    background:#aaa;
+    }
+
+
+</style>
+
+</head>
+<body>
+
+
+<div id='control' class='ui-opacity'>
+  <div id='handle' class='handle'></div>
+</div>
+<div id="map">
+
+<ul id="ply">
+
+<li class="but10">
+       <li  type="button" onclick="stop(); showFrame(animationPosition - 1); return;" class="fa fa-angle-double-left"></i>
+    </li>
+
+<li class="button-play">
+    <input type="checkbox" onclick="playStop();" id="button-play"/>
+    <label for="button-play" tabindex=1></label>
+  </li>
+
+<li class="but20">
+    <li  type="button" onclick="stop(); showFrame(animationPosition + 1); return;" class="fa fa-angle-double-right"style="font-size:24px;  "></i>
+    
+</ul>
+
+<div id="timestamp">زوقت الصور</div>
+
+<div class="right_lable">© Mapbox © OpenStreetMap خرائط </div>
+
+
+
+
+       <div id="boxx" class="popuppx" onclick="myFunction()"><i class="fas fa-key"></i><span class="popupptextx" id="myPopupp">
+<div class="margin9">
+<div>
+<span class="label t1">dBZ-20</span>سحب</div>
+<div>
+<span class="label t2">dBZ 05</span>رذاذ متقطع
+ </div>
+<div>
+<span class="label t3">dBZ 10</span>رذاذ خفيف</div>
+<div>
+<span class="label t4">dBZ 15</span>رذاذ</div>
+<div>
+<span class="label t5">dBZ 20</span>مطر خفيف</div>
+<div>
+<span class="label t6">dBZ 25</span>مطر خفيف</div>
+<div>
+<span class="label t7">dBZ 30</span>امطار</div>
+<div>
+<span class="label t8">dBZ 35</span>امطار</div>
+<div>
+<span class="label t9">dBZ 40</span>امطار غزيرة</div>
+<div>
+<span class="label t10">dBZ 45</span>امطار غزيرة</div>
+<div>
+<span class="label t11">dBZ 50</span>عاصفة</div>
+<div>
+<span class="label t12">dBZ 55</span>عاصفة</div>
+<div>
+<span class="label t13">dBZ 60</span>برد</div>
+<div>
+<span class="label t14">dBZ 65</span>برد</div>
+      </div>
+      </div>
+
+
+
+<div id="myBtn"><i class="fas fa-exclamation-circle"></i></div>
+<div id="myModal" class="modal">
+
+  <div id="modal-content">
+    <span class="close">&times;</span>مصدر الخرائط <hr>© Mapbox <hr> © OpenStreetMap<hr>لمعلومات اكثر راجع تعليمات التطبيق.
+  </div>
+
+</div>
+
+</div>
+
+</body> 
+
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+      <script type="text/javascript " src="https://rawcdn.githack.com/AndroidUpscale/RainRadarUpscale/66ce12ff43fda9b0b6c97e0d336a906c56719dbc/radar_rain-2.js"></script>
+</html>
+
