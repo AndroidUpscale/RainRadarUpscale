@@ -160,31 +160,6 @@
 {
 	"base":1,"stops":[[6,1],[7,0]]}},
 	"source-layer":"countries-2-b4kmxk"},
-/*
-	"Saudi Arabia",
-
-	Medina
-	*/
-
-/*
-{
-
-
-
-
-	"layout":{},
-	"metadata":
-{
-	"mapbox:group":"2ed14333eb5e1892699ff8d7bcff48f4"},
-	"maxzoom":8,"filter":["all",["==","$type","Polygon"],["in","NAME",
-	"Medina",]],"type":"fill","source":"composite","id":"5","paint":
-{
-	"fill-color":"#e70d48","fill-opacity":
-{
-	"base":1,"stops":[[6,1],[7,0]]}},
-	"source-layer":"ne_10m_urban_areas-137xq2"},
-
-*/
 {
 
 
