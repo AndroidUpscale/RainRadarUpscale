@@ -178,7 +178,7 @@
 {
 	"mapbox:group":"2ed14333eb5e1892699ff8d7bcff48f4"},
 	"maxzoom":15,"filter":["all",["==","$type","Polygon"],["in","NAME",
-	"Saudi Arabia",]],"type":"fill","source":"composite","id":"1","paint":
+	"Saudi Arabia"]],"type":"fill","source":"composite","id":"1","paint":
 {
 	"fill-color":"#13c377","fill-opacity":
 {
