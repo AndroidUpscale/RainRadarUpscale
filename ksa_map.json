@@ -110,7 +110,12 @@
 	"metadata":
 {
 	"mapbox:group":"2ed14333eb5e1892699ff8d7bcff48f4"},
-	"maxzoom":7,"filter":["all",["==","$type","Polygon"],["in","NAME","Angola","Anta","Bangladesh","Belize","Bolivia","Botswana","Burkina Faso","Burundi","Central African Rep.","China","Costa Rica","Czechia","Estonia","Ethiopia","France","Gambia","Greece","Guinea","Indonesia","Iran","Ireland","Lebanon","Libya","Liechtenstein","Lithuania","Morocco","Mozambique","New Caledonia","Nigeria","Norway","Oman","Palestine","Puerto Rico","Serbia","Slovenia","Thailand","Uganda","Ukraine","United States of America","Uzbekistan","Venezuela"]],"type":"fill","source":"composite","id":"4","paint":
+	"maxzoom":7,"filter":["all",["==","$type","Polygon"],["in","NAME","Angola","Anta","Bangladesh","Belize","Bolivia",
+	"Botswana","Burkina Faso","Burundi","Central African Rep.","China","Costa Rica","Czechia","Estonia","Ethiopia",
+	"France","Gambia","Greece","Guinea","Indonesia","Iran","Ireland","Lebanon","Libya","Liechtenstein","Lithuania",
+	"Morocco","Mozambique","New Caledonia","Nigeria","Norway","Oman","Palestine","Puerto Rico","Serbia","Slovenia",
+	"Thailand","Uganda","Ukraine","United States of America",
+	"Uzbekistan","Venezuela"]],"type":"fill","source":"composite","id":"4","paint":
 {
 	"fill-color":"#f8f6f7","fill-opacity":
 {
@@ -122,7 +127,12 @@
 	"metadata":
 {
 	"mapbox:group":"2ed14333eb5e1892699ff8d7bcff48f4"},
-	"maxzoom":7,"filter":["all",["==","$type","Polygon"],["in","NAME","","Albania","Argentina","Australia","Bahamas","Belarus","Bhutan","Bosnia and Herz.","Bulgaria","Cyprus","Dem. Rep. Congo","El Salvador","Finland","Gabon","Georgia","Germany","Guernsey","Guyana","Hungary","Iceland","Iraq","Isle of Man","Israel","Italy","Jamaica","Kazakhstan","Laos","Liberia","Malawi","Malaysia","Mauritania","Mexico","Niger","North Korea","Pakistan","Peru","Somalia","Spain","Sri Lanka","Sudan","Swaziland","Taiwan","Tajikistan","Togo","United Arab Emirates","Yemen","Zimbabwe"]],"type":"fill","source":"composite","id":"3","paint":
+	"maxzoom":7,"filter":["all",["==","$type","Polygon"],["in","NAME","","Albania","Argentina",
+	"Australia","Bahamas","Belarus","Bhutan","Bosnia and Herz.","Bulgaria","Cyprus","Dem. Rep. Congo",
+	"El Salvador","Finland","Gabon","Georgia","Germany","Guernsey","Guyana","Hungary","Iceland","Iraq",
+	"Isle of Man","Israel","Italy","Jamaica","Kazakhstan","Laos","Liberia","Malawi","Malaysia","Mauritania",
+	"Mexico","Niger","North Korea","Pakistan","Peru","Somalia","Spain","Sri Lanka","Sudan","Swaziland","Taiwan",
+	"Tajikistan","Togo","United Arab Emirates","Yemen","Zimbabwe"]],"type":"fill","source":"composite","id":"3","paint":
 {
 	"fill-color":"#f8f6f7","fill-opacity":
 {
