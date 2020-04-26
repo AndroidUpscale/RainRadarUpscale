@@ -163,10 +163,6 @@
 {
 
 
-
-
-
-
 	"layout":{},
 	"metadata":
 {
@@ -183,7 +179,6 @@
 	"minzoom":3,"layout":{},
 	"metadata":
 {
-	/*___8888_*/
 	"mapbox:group":"7384418aea7498ef74eedcfb569e0653"},
 	"maxzoom":8,"filter":["==","$type","Polygon"],"type":"fill","source":"composite","id":"built-up-area","paint":
 {
@@ -385,7 +380,6 @@
 	"layout":{},
 	"maxzoom":7,"filter":["all",["!=","ADMIN","Antarctica"],["==","$type","Polygon"]],"type":"line","source":"composite","id":"country-lines-z1-7","paint":
 {
-	/*__999999___*/
 	"line-color":"hsl(231, 71%, 46%)","line-width":
 {
 	"base":1,"stops":[[3,0.5],[4,1]]},
