@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>wrf-8-km</name>
+	<color>b0ffffff</color>
+	<Icon>
+		<href>http://37.59.28.31/map/orient/PRECIPITATIONS_CUMUL_72.png?ts=1508593782</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>40.09185752806847</north>
+		<south>11.79165682167668</south>
+		<east>64.66130732195801</east>
+		<west>29.64657256426859</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>
