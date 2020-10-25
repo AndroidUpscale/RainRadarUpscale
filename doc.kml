@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<NetworkLink>
-	<name>رادار المطر</name>
-	<open>1</open>
-	<Link>
-		<href>https://www.yanbuweather.com/pages/GoogleEarthRadar/generate.php?token=2f89eb4df9</href>
-		<refreshMode>onInterval</refreshMode>
-		<refreshInterval>30</refreshInterval>
-	</Link>
-</NetworkLink>
+<GroundOverlay>
+	<name>Yanbu_1603577883.png</name>
+	<Icon>
+		<href>https://www.yanbuweather.com/pages/yellowradar/get.php?file=Yanbu_1603577883.png&amp;pass=89038db2a9c4e37562ae0621f716c177&amp;radar=Yanbu</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>26.015231</north>
+		<south>22.237833</south>
+		<east>40.276478</east>
+		<west>35.986681</west>
+	</LatLonBox>
+</GroundOverlay>
 </kml>
 
