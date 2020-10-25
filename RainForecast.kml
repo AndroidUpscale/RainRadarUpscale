@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>2020-10-30-00</name>
+	<Icon>
+		<href>https://www.yanbuweather.com/pages/RainForecast/image/generate.php?mode=TotalPrec&amp;time=2020-10-30-00</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>33.437297</north>
+		<south>12.552821</south>
+		<east>60.574208</east>
+		<west>33.93187</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>

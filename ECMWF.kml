@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>ECMWF</name>
+	<Icon>
+		<href>https://www.yanbuweather.com/pages/ecmwf/image/3hr_rain.php?step=2&amp;run=2020102500&amp;i=2fbc2134acc30a1c2a3f5f50ad9d7558</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>36.14127343622231</north>
+		<south>9.371649653876519</south>
+		<east>63.6226095394147</east>
+		<west>32.0186331674058</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>

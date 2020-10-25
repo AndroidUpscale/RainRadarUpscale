@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>1603594800</name>
+	<Icon>
+		<href>https://www.yanbuweather.com/pages/cloudsat2/get.php?time=1603594800</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>34.307143856288</north>
+		<south>11.178401873712</south>
+		<east>62</east>
+		<west>30</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>
