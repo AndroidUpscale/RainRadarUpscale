@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.1">
-<GroundOverlay>
+<GroundOverlay z-index="1">
 	<name>wrf-8-km</name>
 	<color>ffffffff</color>
 	<Icon>
