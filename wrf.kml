@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://earth.google.com/kml/2.1">
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="https://www.bluemarblegeo.com/globalmapper">
+<Document>
+<name>Hgff</name>
+<Region>
+  <LatLonAltBox>
+    <north>34.04217463176618708</north>
+    <south>11.31012916138478630</south>
+    <east>57.51374375814904738</east>
+    <west>32.28171451880934484</west>
+  </LatLonAltBox>
+</Region>
 <GroundOverlay>
-	<name>wrf-8-km</name>
-	<color>ffffffff</color>
-	<Icon>
-		<href>http://37.59.28.31/map/orient/PRECIPITATIONS_CUMUL_72.png?ts=1508593782</href>
-		<viewBoundScale>0.75</viewBoundScale>
-	</Icon>
-	<LatLonBox>
-		<north>40.09185752806847</north>
-		<south>11.79165682167668</south>
-		<east>64.66130732195801</east>
-		<west>29.64657256426859</west>
-	</LatLonBox>
+  <name>kml_image_Hgff_L1_0_0</name>
+  <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+  <Icon>
+    <href>https://osm.meteologix.com/custom/xx_overlays/1200/1235.png</href>
+  </Icon>
+  <LatLonBox>
+    <north>34.04217463176618708</north>
+    <south>11.31012916138478630</south>
+    <east>57.51374375814904738</east>
+    <west>32.28171451880934484</west>
+  </LatLonBox>
+  <Region>
+    <LatLonAltBox>
+      <north>34.04217463176618708</north>
+      <south>11.31012916138478630</south>
+      <east>57.51374375814904738</east>
+      <west>32.28171451880934484</west>
+    </LatLonAltBox>
+    <Lod>
+      <minLodPixels>64</minLodPixels>
+      <maxLodPixels>-1</maxLodPixels>
+    </Lod>
+  </Region>
 </GroundOverlay>
+</Document>
 </kml>
+
